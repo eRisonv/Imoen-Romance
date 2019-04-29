@@ -7,4 +7,9 @@
 <li>Переведеных строк ToB:&nbsp;&nbsp;<code>945/4832</code>&nbsp;</li>
 <li>Вычитка: &nbsp;&nbsp;<code>57%</code>&nbsp;</li>
 </ol>
+
+
+
+
+
 https://vk.com/gwynx
