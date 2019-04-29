@@ -12,4 +12,4 @@
 
 
 
-https://vk.com/gwynx
+<p style="text-align: right;"><a href="https://vk.com/gwynx">https://vk.com/gwynx</a></p>
