@@ -1,6 +1,6 @@
 # Russian Translation - Imoen-Romance 3.9 
 
-<p><span style="color: #000000;"><strong>Готовность перевода:</strong></span></p>
-<p>Не переведеных строк SoA:</p>
-<p>Не переведеных строк ToB:</p>
-<p>Вычитка:</p>
+<p><span><strong>Готовность перевода:</strong></span></p>
+<h5>Не переведеных строк SoA:</h5>
+<h5>Не переведеных строк ToB:</h5>
+<h5>Вычитка:</h5>
