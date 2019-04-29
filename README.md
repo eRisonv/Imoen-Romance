@@ -1,2 +1,2 @@
-# Rus Translated - Imoen-Romance 3.9 
+# Russian Translated - Imoen-Romance 3.9 
 
