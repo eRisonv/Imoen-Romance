@@ -1,2 +1,2 @@
-# Перевод мода - Imoen-Romance 
+# Rus Translated - Imoen-Romance 3.9 
 
