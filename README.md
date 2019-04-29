@@ -5,5 +5,5 @@
 <ol>
 <li>Переведенных строк SoA: &nbsp;&nbsp;<code>651/5306</code>&nbsp;</li>
 <li>Переведеных строк ToB:&nbsp;&nbsp;<code>945/00000</code>&nbsp;</li>
-<li>Вычитка: &nbsp;&nbsp;<code>10%</code>&nbsp;</li>
+<li>Вычитка: &nbsp;&nbsp;<code>57%</code>&nbsp;</li>
 </ol>
