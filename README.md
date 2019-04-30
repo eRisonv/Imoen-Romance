@@ -9,4 +9,5 @@
 </ol>
 
 <p><a href="https://vk.com/gwynx" target="_blank" rel="noopener">https://vk.com/gwynx</a></p>
+<p><img src="https://i.imgur.com/s7RyTof.png" alt="" width="110" height="170" /></p>
 
