@@ -9,3 +9,4 @@
 </ol>
 
 <p><a href="https://vk.com/gwynx" target="_blank" rel="noopener">https://vk.com/gwynx</a></p>
+<p><a href="https://steamcommunity.com/id/xgwynx/" target="_blank" rel="noopener">https://steamcommunity.com/id/xgwynx/</a></p>
