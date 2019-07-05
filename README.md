@@ -6,7 +6,9 @@
 </ol>
 
 
-<p><a href="https://vk.com/gwynx" target="_blank" rel="noopener">https://vk.com/gwynx</a></p>
-<p><a href="https://arcanecoast.ru/forum/memberlist.php?mode=viewprofile&u=5079" target="_blank" rel="noopener">Профиль на arcanecost.ru</a></p>
+<ul>
+<li><a href="https://vk.com/gwynx" target="_blank" rel="noopener">https://vk.com/gwynx</a></li>
+<li><a href="https://arcanecoast.ru/forum/memberlist.php?mode=viewprofile&amp;u=5079" target="_blank" rel="noopener">Профиль на arcanecost.ru</a></li>
+</ul>
 
 
