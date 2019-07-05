@@ -5,7 +5,8 @@
 <li>Переведеных строк ToB:&nbsp;&nbsp;<code>945/4832</code>&nbsp;</li>
 </ol>
 
+
 <p><a href="https://vk.com/gwynx" target="_blank" rel="noopener">https://vk.com/gwynx</a></p>
-<a href="https://arcanecoast.ru/forum/memberlist.php?mode=viewprofile&u=5079" target="_blank" rel="noopener">Профиль на arcanecost.ru</a>
+<p><a href="https://arcanecoast.ru/forum/memberlist.php?mode=viewprofile&u=5079" target="_blank" rel="noopener">Профиль на arcanecost.ru</a></p>
 
 
