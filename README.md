@@ -1,5 +1,5 @@
 # Russian Translation - Imoen-Romance 3.9 
-18.06.2019 - Переведено 40%
+10.07.2019 - Переведено 45%
 <ol>
 <li>Переведенных строк SoA: &nbsp;&nbsp;<code>3528/5306</code>&nbsp;</li>
 <li>Переведеных строк ToB:&nbsp;&nbsp;<code>1135/4997</code>&nbsp;</li>
