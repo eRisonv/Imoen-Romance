@@ -7,8 +7,7 @@
 
 
 <ul>
-<li><a href="https://vk.com/gwynx" target="_blank" rel="noopener">https://vk.com/gwynx</a></li>
-<li><a href="https://arcanecoast.ru/forum/memberlist.php?mode=viewprofile&amp;u=5079" target="_blank" rel="noopener">Профиль на arcanecost.ru</a></li>
+<li><a href="https://arcanecoast.ru/forum/viewtopic.php?f=6&t=875" target="_blank" rel="noopener">Тема на arcanecost.ru</a></li>
 </ul>
 
 
