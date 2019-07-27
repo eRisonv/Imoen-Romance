@@ -7,7 +7,7 @@
 
 
 <ul>
-<li><a href="https://arcanecoast.ru/forum/viewtopic.php?f=6&t=875" target="_blank" rel="noopener">Тема на arcanecost.ru</a></li>
+<li><a href="https://arcanecoast.ru/forum/viewtopic.php?f=6&t=875" target="_blank" rel="noopener">Топик на arcanecost.ru</a></li>
 </ul>
 
 
