@@ -9,6 +9,4 @@
 <ul>
 <li><a href="https://arcanecoast.ru/forum/viewtopic.php?f=6&t=875" target="_blank" rel="noopener">Топик на arcanecost.ru</a></li>
 </ul>
-<div class="w3-border">
-  <div class="w3-grey" style="height:24px;width:20%"></div>
-</div>
+
