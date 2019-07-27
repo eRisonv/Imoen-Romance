@@ -9,5 +9,7 @@
 <ul>
 <li><a href="https://arcanecoast.ru/forum/viewtopic.php?f=6&t=875" target="_blank" rel="noopener">Топик на arcanecost.ru</a></li>
 </ul>
+
+
 <p><img src="https://i.imgur.com/Sjuordw.png" alt="" width="380" height="304" /></p>
 
