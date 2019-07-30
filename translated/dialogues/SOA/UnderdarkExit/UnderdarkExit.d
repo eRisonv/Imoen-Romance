@@ -8,13 +8,13 @@ BEGIN 0 END
 APPEND IMOEN2J
 
 	IF ~Global("MRExitComment","AR2500",1)  GlobalGT("MRLoveTalk","GLOBAL",9)~ THEN BEGIN MRCampfire
-		SAY @0 [ MRImRom3 ]
+		SAY @0
 		IF ~~ THEN DO ~SetGlobal("MRExitComment","AR2500",2) SetGlobal("MRCampPrompt","GLOBAL",5)~ GOTO MRCampfire2
 	END
 	
 	IF ~Global("MRExitComment","AR2500",1)  !GlobalGT("MRLoveTalk","GLOBAL",9)~ THEN BEGIN MRCampfire
 		SAY @1
-		 =@2 [ IRQUIET ]
+		 =@2
 		IF ~~ THEN DO ~SetGlobal("MRExitComment","AR2500",2)~ GOTO MRGladeN
 	END
 	
