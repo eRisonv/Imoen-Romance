@@ -2,7 +2,7 @@
 29.07.2019 - Переведено 67%
 <ol>
 <li>Переведенных строк SoA: &nbsp;&nbsp;<code>4973/5211</code>&nbsp;</li>
-<li>Переведеных строк ToB:&nbsp;&nbsp;<code>2090/4997</code>&nbsp;</li>
+<li>Переведеных строк ToB:&nbsp;&nbsp;<code>2205/4997</code>&nbsp;</li>
 </ol>
 
 
