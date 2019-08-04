@@ -1,5 +1,5 @@
 # Russian Translation - Imoen-Romance 3.9 
-<table style="height: 510px;" width="993">
+<table style="height: 510px; width: 991px;">
 <tbody>
 <tr>
 <td style="width: 263px;">
@@ -12,8 +12,8 @@
 <li><a href="https://arcanecoast.ru/forum/viewtopic.php?f=6&amp;t=875" rel="nofollow">Топик на arcanecost.ru</a></li>
 </ul>
 </td>
-<td style="width: 353px;"><img src="https://i.imgur.com/QMryycC.png" alt="" width="256" height="500" /></td>
-<td style="width: 355px;"><img src="https://i.imgur.com/kzy5K1P.png" alt="" width="256" height="500" /></td>
+<td style="width: 232px;"><img src="https://i.imgur.com/eoqVh6h.png" width="226" height="500" /></td>
+<td style="width: 476px;"><img src="https://i.imgur.com/TLiu6hH.png" width="226" height="500" /></td>
 </tr>
 </tbody>
 </table>
