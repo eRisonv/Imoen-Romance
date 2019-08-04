@@ -1,9 +1,9 @@
 # Russian Translation - Imoen-Romance 3.9 
-<table style="height: 210px; margin-left: auto; margin-right: auto; width: 673px;">
+<table style="height: 210px; margin-left: auto; margin-right: auto; width: 671px;">
 <tbody>
 <tr>
-<td style="width: 29.5px;">&nbsp;</td>
-<td style="width: 739.5px;">
+<td style="width: 69.5px;">&nbsp;</td>
+<td style="width: 698.5px;">
 <p>04.08.2019 - Переведено 74%</p>
 <ol>
 <li>Переведенных строк SoA: &nbsp;&nbsp;<code>5211/5211</code>&nbsp;</li>
