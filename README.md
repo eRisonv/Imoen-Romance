@@ -1,5 +1,5 @@
 # Russian Translation - Imoen-Romance 3.9 
-<table style="height: 210px;" width="705">
+<table style="height: 210px; margin-left: auto; margin-right: auto;" width="705">
 <tbody>
 <tr>
 <td style="width: 343px;">
