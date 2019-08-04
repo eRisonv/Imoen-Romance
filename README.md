@@ -13,7 +13,7 @@
 </ul>
 </td>
 <td style="width: 232px;"><img src="https://i.imgur.com/eoqVh6h.png" width="226" height="500" /></td>
-<td style="width: 476px;"><img src="https://i.imgur.com/UwvxR80.png" width="226" height="500" /></td>
+<td style="width: 476px;"><img src="https://i.imgur.com/CjWBiK8.png" width="226" height="500" /></td>
 </tr>
 </tbody>
 </table>
