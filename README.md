@@ -3,7 +3,7 @@
 <tbody>
 <tr>
 <td style="width: 263px;">
-<p>04.08.2019 - Переведено 74%</p>
+<p>24.08.2019 - Переведено 81%</p>
 <ol>
 <li>Переведенных строк SoA: &nbsp;&nbsp;<code>5211/5211</code>&nbsp;</li>
 <li>Переведенных строк ToB:&nbsp;&nbsp;<code>3176/4997</code>&nbsp;</li>
