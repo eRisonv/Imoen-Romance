@@ -120,7 +120,7 @@ APPEND IMOEN2J
 	END
 
 	IF ~~ MRLoveTalk1-1Thanks
-	 SAY ~Hey...~ [ MRImRom5 ]
+	 SAY @38
 	 =
 	 @39
 	 =
@@ -1510,7 +1510,7 @@ APPEND IMOEN2J
 	END
 
 	IF ~~ MRLoveTalk5-10
-	 SAY @600 [ MRImNig1 ]
+	 SAY @604 
 	 ++ @605 + MRLoveTalk5-11
 	 ++ @606 + MRLoveTalk5-9End
 	END
