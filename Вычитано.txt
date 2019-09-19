@@ -3,3 +3,8 @@ Banter: AlignGoodvsEvil, AlignLaw, banter, Classes, Money, Reputation, Stealing
 Bracelet: imoen, mrwomer
 Bodhi: BodhiConfrontation
 Love: lovetalks
+CampfireCutscenes [Done]
+FirstDungeon: imoen.tra
+Quests [Done]
+Spellhold: ImRejoinEE, ImRejoin, Exit
+
