@@ -1,7 +1,5 @@
-Вычитано.
-
 SoA:
-Папка Banter: AlignGoodvsEvil, AlignLaw, banter, Classes, Money, Reputation, Stealing
-Папка Bracelet: imoen и mrwomer
-Папка Bodhi: BodhiConfrontation
-Папка Love: lovetalks
+РџР°РїРєРё Banter: AlignGoodvsEvil, AlignLaw, banter, Classes, Money, Reputation, Stealing
+РџР°РїРєРё Bracelet: imoen ГЁ mrwomer
+РџР°РїРєРё Bodhi: BodhiConfrontation
+РџР°РїРєРё Love: lovetalks
