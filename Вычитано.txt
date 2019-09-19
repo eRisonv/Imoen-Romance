@@ -7,4 +7,4 @@ CampfireCutscenes [Done]
 FirstDungeon: imoen.tra
 Quests [Done]
 Spellhold: ImRejoinEE, ImRejoin, Exit
-Hell: Hell
+Hell [Done]
