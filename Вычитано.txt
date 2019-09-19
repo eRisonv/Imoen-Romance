@@ -6,5 +6,5 @@ Love: lovetalks
 CampfireCutscenes [Done]
 FirstDungeon: imoen.tra
 Quests [Done]
-Spellhold: ImRejoinEE, ImRejoin, Exit
+Spellhold: ImRejoinEE, ImRejoin, Exit, SlayerDreamTalk, ImRejoinVanilla
 Hell [Done]
