@@ -3,7 +3,7 @@
 
 REPLACE IMOEN2
 	IF ~~ THEN BEGIN 0
-	 SAY ~I'm sorry, <CHARNAME>, I was just so worried...~ [ MRImRom1 ]
+	 SAY @0
 	 ++ @1 DO ~ActionOverride(Player1,SetDialog("Player1"))~ GOTO MRReunitedLove
 	 ++ @2 DO ~ActionOverride(Player1,SetDialog("Player1"))~ GOTO MRReunitedHurt
 	 ++ @3 DO ~ActionOverride(Player1,SetDialog("Player1"))~ GOTO MRReunitedOkay

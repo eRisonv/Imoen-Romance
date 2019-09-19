@@ -44,7 +44,7 @@ APPEND IMOEN2J
 	END
 
 	IF ~~ THEN BEGIN MRSlayDream2
-		SAY ~(Her eyebrow arches up) Oh? Like what?~ [ MRImRom5 ]
+		SAY @16
 			++ @17 GOTO MRSlayDream3
 			IF ~!Global("MRSlayDreamLoop","GLOBAL",1)~ THEN REPLY @18 DO ~SetGlobal("MRSlayDreamLoop","GLOBAL",1)~ GOTO MRSlayDreamAvatar
 			++ @19 GOTO MRSlayDreamShort
