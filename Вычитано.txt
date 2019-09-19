@@ -4,7 +4,7 @@ Bracelet: imoen, mrwomer
 Bodhi: BodhiConfrontation
 Love: lovetalks
 CampfireCutscenes [Done]
-FirstDungeon: imoen.tra
+FirstDungeon: imoen.tra imoen2j.tra
 Quests [Done]
 Spellhold: ImRejoinEE, ImRejoin, Exit, SlayerDreamTalk, ImRejoinVanilla
 Hell [Done]
