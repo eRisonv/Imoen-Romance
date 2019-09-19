@@ -2,7 +2,7 @@ APPEND IMOEN2J
 	// just before sleep at underdark exit comment
 
 	 IF ~Global("MRCampSleepTalk","GLOBAL",1) AreaCheck("AR2500")~ THEN BEGIN MRCampfireAct2
-		SAY ~Aah... (Imoen stretches) This place is great. Look, that spot over there will do.~ [ IRQUIET ]
+		SAY @0
 		IF ~~ THEN DO ~SetGlobal("MRCampSleepTalk","GLOBAL",2)
 		ClearAllActions()
 		StartCutSceneMode()
@@ -185,7 +185,7 @@ END ++ @68 EXTERN IMOEN2J MRCampfireMusic2Sex
 
 APPEND IMOEN2J
 	IF ~~ THEN BEGIN MRCampfireMusic2OrgySolo
-		SAY ~(Her eyes widen when she sees your state of undress. You realize too late that, shockingly enough, Imoen wasn't suggesting you have wild sex by the campfire.)~
+		SAY @70
 		@46
 		= @67
 		++ @68 GOTO MRCampfireMusic2Sex
@@ -217,12 +217,12 @@ APPEND IMOEN2J
 	// *** Act 3 ***
 
 	IF ~NumInPartyGT(2) Global("MRCampfireMusic","GLOBAL",2)~ THEN BEGIN MRCampfireMusic3Group
-		SAY ~(Imoen stares at the flames. Everyone is sitting around the small fire, but few words have been said. Finally, Imoen speaks.)~ [ MRImRom5 ]
+		SAY @76
 		IF ~~ THEN DO ~SetGlobal("MRCampfireMusic","GLOBAL",3)~ GOTO MRCampfireMusic4
 	END
 
 	IF ~!NumInPartyGT(2) Global("MRCampfireMusic","GLOBAL",2)~ THEN BEGIN MRCampfireMusic3Solo
-		SAY ~(Imoen stares at the flames. You both are sitting around the small fire, but few words have been said. Finally, Imoen speaks.)~ [ MRImRom5 ]
+		SAY @77
 		IF ~~ THEN DO ~SetGlobal("MRCampfireMusic","GLOBAL",3)~ GOTO MRCampfireMusic4
 	END
 END
@@ -244,7 +244,7 @@ CHAIN IMOEN2J MRCampfireMusic4
 == IMOEN2J @85
 = @86
 
-= ~(Imoen's fingers begin to gracefully fly over the strings, playing a beautiful melody. Triumphantly she looks at you; she's practically glowing.)~ [ MRImInt3 ]
+= @87
 = @88
 = @89
 = @90
@@ -257,7 +257,7 @@ CHAIN IMOEN2J MRCampfireMusic4
 = @97
 = @98
 
-= ~And that's it! How's that for a story? (She beams at you and plays something else.)~ [ MRImInt2 ]
+= @99
 == JAHEIRAJ IF ~IsValidForPartyDialog("Jaheira")~ THEN @100
 == AERIEJ IF ~IsValidForPartyDialog("Aerie") !Class(Player1,BARD)~ THEN @101
 == AERIEJ IF ~IsValidForPartyDialog("Aerie") Class(Player1,BARD)~ THEN @102
@@ -285,7 +285,7 @@ APPEND IMOEN2J
 	END
 
 	IF ~~ THEN BEGIN MRCampfireMusic5Hate
-		SAY ~(She stops, puzzled) Whatever you mean by that? Everyone likes at least *some* sort of music!~ [ MRImEndG ]
+		SAY @120
 		++ @121 GOTO MRCampfireMusic5HateJoke
 		IF ~!Class(Player1,BARD)~ THEN REPLY @122 GOTO MRCampfireMusic5HateYes
 		++ @123 GOTO MRCampfireMusic5HateYou
@@ -344,7 +344,7 @@ APPEND IMOEN2J
 
 
 	IF ~~ THEN BEGIN MRCampfireMusic5HateJoke
-		SAY ~Pff, you goon. Had me worried for a moment there... (she starts playing again.)~ [ MRImInt2 ]
+		SAY @131
 		++ @132 GOTO MRCampfireMusic5How
 		++ @133 GOTO MRCampfireMusic5WhyNot
         ++ @134 GOTO MRCampfireMusic5Continue
@@ -372,18 +372,18 @@ APPEND IMOEN2J
 
 
 	IF ~~ THEN BEGIN MRCampfireMusic5Continue
-		SAY ~But of course you will! (She chuckles happily, and stops the melody she was playing.)~ [ MRImEndG ]
+		SAY @145
 		IF ~~ THEN GOTO MRCampfireMusic6
 	END
 
 	IF ~~ THEN BEGIN MRCampfireMusic5Continue2
-		SAY ~But of course you are! (She chuckles happily, and stops the melody she was playing.)~ [ MRImEndG ]
+		SAY @146
 		IF ~~ THEN GOTO MRCampfireMusic6
 	END
 
 	IF ~~ THEN BEGIN MRCampfireMusic6
 		SAY @147
-                = ~(Imoen prepares a chord and clears her throat with a slight cough. Soon she's plucking strings, gently easing the ambiance into a simple tune.)~ [ MRImInt1 ]
+                = @148
 		= @149
 
 		= @150
@@ -400,7 +400,7 @@ APPEND IMOEN2J
 END
 
 CHAIN IMOEN2J MRCampfireMusic7
-~(You'd never heard Imoen sing before. Sometimes she'd whistle, sometimes she'd hum - but you can't remember her ever singing.)~ [ MRImRom6 ]
+@155
 == JAHEIRAJ IF ~IsValidForPartyDialog("Jaheira")~ THEN @156
 == AERIEJ IF ~IsValidForPartyDialog("Aerie")~ THEN @157
 == NALIAJ IF ~IsValidForPartyDialog("Nalia")~ THEN @158
@@ -506,7 +506,7 @@ APPEND IMOEN2J
 	//loveme3.baf
 
 	IF ~Global("MRCampfireMusic","GLOBAL",3)~ THEN BEGIN MRCampfireMorning
-		SAY ~WAKE UP, <CHARNAME>!~ [ MRImRom4 ]
+		SAY @190
 		IF ~~ THEN DO ~SetGlobal("MRCampfireMusic","GLOBAL",4) ActionOverride(Player1,SetDialog("Player1"))~ GOTO MRCampfireMorning2
 	END
 
@@ -619,7 +619,7 @@ END
 
 APPEND PLAYER1
 	IF ~Global("MRCampfireMusic","GLOBAL",4)~ THEN BEGIN MRCampfireMorning3Chase
-	SAY ~(After the short chase, you are lucky enough to catch the hem of her clothes and drag her to the mossy ground. She tries to roll away from you, but she only sends you both tumbling together on the grass.)~  [ IRQUIET ]
+	SAY @227
 	=
 	@228
 	=
@@ -632,7 +632,7 @@ END
 
 APPEND IMOEN2J
 	IF ~~ THEN BEGIN MRCampfireMorning4
-		SAY ~Hahahahahah... hahahah... (She keeps giggling uncontrollably. It's been years since you last saw Imoen like this.)~ [ MRImRom1 ]
+		SAY @230
 		++ @231 DO ~ActionOverride(Player1,SetDialog("Player1"))~GOTO MRCampfireMorning4Tickle2
 		++ @232 DO ~ActionOverride(Player1,SetDialog("Player1"))~ GOTO MRCampfireMorning4Tickle
 		++ @233 GOTO MRCampfireMorning4Anger
@@ -670,7 +670,7 @@ APPEND IMOEN2J
                 =
                 @246
                 =
-		~<CHARNAME>... (A fresh breeze carries her whisper. Cherry locks of hair titillate around her face.)~ [ MRImRom3 ]
+		@247
 		++ @248 GOTO MRCampfirePivotFondle
 		++ @249 GOTO MRCampfirePivotStand
 		++ @250 DO ~ActionOverride(Player1,SetDialog("Player1"))~ GOTO MRCampfirePivotKiss
@@ -762,7 +762,7 @@ END
 
 APPEND PLAYER1
 	IF ~Global("MRCampfireMusic","GLOBAL",5)~ THEN BEGIN MRCampfireAftermath
-		SAY ~(You awaken to find that Imoen is no longer lying by your side. She stands a few paces from where you lie, looking up at nesting birds. She's lost in thought.)~ [ MRImRom6 ]
+		SAY @280
 		=
 		@281
 		IF ~~ THEN DO ~SetGlobal("MRCampfireMusic","GLOBAL",6) SetGlobal("MRSleptImoen","GLOBAL",1) SetGlobalTimer("MRPartyReactionTimer","GLOBAL",ONE_DAY)
@@ -775,7 +775,7 @@ END
 //loveme5a.baf
 APPEND IMOEN2J
 	IF ~Global("MRCampfireMusic","GLOBAL",6)~ THEN BEGIN MRCampfireAftermath
-		SAY ~(Imoen senses your approach, then half-turns toward you. Her eyes are fastened to the ground, her stance distant, defensive.)~ [ IRQUIET ]
+		SAY @282
                 = @283
                 = @284
                 = @285

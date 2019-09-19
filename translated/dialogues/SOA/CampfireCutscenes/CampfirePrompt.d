@@ -63,7 +63,7 @@ END
 
 APPEND IMOEN2J
 	IF  ~Global("MRCampPrompt","GLOBAL",1) Global("BodhiDead","GLOBAL",1)~   THEN MRLetsCamp2
-		SAY @23 [ MRImRom3 ]
+		SAY @23 
 			IF ~~ THEN DO ~SetGlobal("MRCampPrompt","GLOBAL",2)~ GOTO MRLetsCampN
 	END
 END
