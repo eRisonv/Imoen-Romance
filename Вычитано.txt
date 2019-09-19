@@ -1,5 +1,5 @@
 SoA:
 Banter: AlignGoodvsEvil, AlignLaw, banter, Classes, Money, Reputation, Stealing
-Bracelet: imoen è mrwomer
+Bracelet: imoen, mrwomer
 Bodhi: BodhiConfrontation
 Love: lovetalks
