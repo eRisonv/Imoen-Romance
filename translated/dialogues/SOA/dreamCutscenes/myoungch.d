@@ -8,7 +8,7 @@ IF ~Global("MRDream2","GLOBAL",3)~ THEN BEGIN MRDream2-sub1
 END
 
 CHAIN2 MYOUNGIM MRDream2-sub2
-~We're finally here! Whoa, this place hasn't changed a bit, has it?~ [ MRImRom3 ]
+@2
 ==
 @3
 ==

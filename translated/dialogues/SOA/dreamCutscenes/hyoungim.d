@@ -22,7 +22,7 @@ CHAIN2 ~HYOUNGCH~ MRDream3-sub2
 END HYOUNGCH MRDream3-sub3
 
 IF ~Global("MRDream3","GLOBAL",4)~ THEN BEGIN MRDream3-sub4
-	SAY ~Hmmmmph... MMmmm... n-no...~ [ MRImNig1 ]
+	SAY @7
 	IF ~~ THEN EXTERN ~HYOUNGCH~ MRDream3-sub5
 END
 

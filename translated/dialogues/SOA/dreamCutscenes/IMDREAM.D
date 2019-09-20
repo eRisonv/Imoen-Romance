@@ -4,7 +4,7 @@ BEGIN IMDREAM
 
 
 IF ~Global("MRDream1","GLOBAL",1)~ THEN BEGIN MRDream1-1
- SAY ~Heya! It's me, Imoen!~ [ MRImDre2 ]
+ SAY @0
  =
  @1
  IF ~~ + MRDream1-2
@@ -124,7 +124,7 @@ END
 IF ~~ THEN BEGIN MRDream2-2
 	SAY @23
 	=
-	~They *are* memories... aren't they?~ [ MRImDre2 ]
+	@24
 	=
 	@25
 	=
@@ -207,7 +207,7 @@ IF ~Global("MRDream3","GLOBAL",1)~ THEN BEGIN MRDream3-1
 	SAY @39
 	=
 	@40
-	= ~I guess the actual question is, am I *really* Imoen? Do we share a special connection that lets me reach you from my own personal hellhole? Do I talk to you from far, far away?~ [ MRImRom6 ]
+	= @41
 	= @42
 	= @43
 	= @44
@@ -278,7 +278,7 @@ IF ~Global("MRDream3","GLOBAL",2)~ THEN BEGIN MRDream3-4
 	=
 	@58
 	=
-	~Oh, look, and we have company. Who coulda expected it? Not me, nu-uh.~ [ MRImRom3 ]
+	@59
 	IF ~Gender(Player1,MALE)~ THEN DO ~ClearAllActions()
 	StartCutSceneMode()
 	StartCutScene("Cutim13")~
