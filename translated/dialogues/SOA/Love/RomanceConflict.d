@@ -2,7 +2,7 @@
 APPEND IMOEN2J
 	IF ~~ THEN BEGIN MRResolution1
 				SAY @0
-			= ~<CHARNAME>, what happened between us... I've been thinking about it a lot.~ [ MRImRom1 ]
+			= @1
 			= @2
 			IF ~!Global("JaheiraRomanceActive","GLOBAL",2)
 				!Global("AerieRomanceActive","GLOBAL",2)
