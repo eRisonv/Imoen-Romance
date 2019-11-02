@@ -4,7 +4,7 @@ BEGIN IMDREAM
 
 
 IF ~Global("MRDream1","GLOBAL",1)~ THEN BEGIN MRDream1-1
- SAY @0
+ SAY ~Heya! It's me, Imoen!~ [ MRImDre2 ]
  =
  @1
  IF ~~ + MRDream1-2

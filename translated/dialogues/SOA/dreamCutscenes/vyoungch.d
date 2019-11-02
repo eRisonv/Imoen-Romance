@@ -2,7 +2,7 @@ BEGIN VYOUNGCH
 
 IF ~Global("MRDream1","GLOBAL",4)~
 THEN BEGIN MRDream1-sub1 
-SAY ~Imoen! Are you okay?~ [ MRImRom2 ]
+SAY @0
 IF ~~ THEN EXTERN VYOUNGIM MRDream1-sub2
 END
 
