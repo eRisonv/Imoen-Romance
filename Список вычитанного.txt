@@ -2,7 +2,7 @@ SoA:
 Banter: AlignGoodvsEvil, AlignLaw, banter, Classes, Money, Reputation, Stealing
 Bracelet: imoen, mrwomer
 Bodhi: BodhiConfrontation
-Love: lovetalks, RomanceConflict, RomanceNoConflict
+Love: [Вычитано]
 CampfireCutscenes [Вычитано]
 FirstDungeon: imoen.tra imoen2j.tra
 Quests [Вычитано]
