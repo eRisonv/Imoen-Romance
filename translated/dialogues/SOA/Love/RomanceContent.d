@@ -396,7 +396,7 @@ APPEND IMOEN2J
 
 
 	IF ~~ THEN BEGIN MRResolution7Embrace
-	  SAY ~(Imoen melts into your arms, your gentle embrace rewarded by the softness of her skin, the warmth of her body. She simply lets you envelop her and hold her close, not moving at all.)~ [ MRImRom6 ]
+	  SAY @165
 	 = @166
 	 IF ~~ THEN GOTO MRResolution8
 	 END
@@ -421,7 +421,7 @@ APPEND IMOEN2J
 	END
 
 	IF ~~ THEN BEGIN MRResolution7Embrace2
-	  SAY ~(Imoen leans in and your mouths find one another. Her tremulous breath touches your face, and you can sense her trepidation as you warmly stroke her lips with yours.)~ [ MRImRom6 ]
+	  SAY @179
 	 = @180
 	 = @166
 	 IF ~~ THEN GOTO MRResolution8
@@ -809,7 +809,7 @@ APPEND IMOEN2J
 
 
 	IF ~~ THEN BEGIN MRResolutionLoveRightLOVEYOU
-	   SAY ~(Your gentle embrace is rewarded by the softness of her skin, the warmth and yearning of her body. Imoen leans in and your mouths converge, restoring a link you were on the verge of never knowing again. Her tremulous breath touches your face, and you can sense her trepidation as you tenderly stroke her lips with yours.)~ [ MRImRom6 ]
+	   SAY @326
            = @327
            = @189
            = @328

@@ -247,7 +247,7 @@ APPEND IMOEN2J
 	/* Must be inside a city */
 
 	IF ~~ THEN BEGIN MRLT1
-		SAY ~(Imoen grins at you, guessing your intentions) Hmm, feelin' mushy today, arentcha?~ [ MRImRom3 ] 
+		SAY @92 
 		IF ~~ THEN REPLY @93 GOTO MRLT1-2
 		IF ~~ THEN REPLY @94GOTO MRLT1-Kiss
 		IF ~~ THEN REPLY @95 GOTO MRLT1-2
@@ -349,7 +349,7 @@ APPEND IMOEN2J
 	/* Must trigger at night */
 
 	IF ~~ THEN BEGIN MRLT2
-		SAY ~(As you approach, Imoen smiles and sheepishly kisses your nose) All this darkness scares me, my good <PRO_LADYLORD>. Couldst thou be my light and allay my fears?~ [ MRImRom3 ] 
+		SAY @124 
 		IF ~~ THEN REPLY @125 GOTO MRLT2-Fair
 		IF ~~ THEN REPLY @126 GOTO MRLT2-Course
 		IF ~~ THEN REPLY @127 GOTO MRLT2-Humble
@@ -402,7 +402,7 @@ APPEND IMOEN2J
 	/* Must trigger around sunset time, whenever that is, in the outdoors/forest */
 
 	IF ~~ THEN BEGIN MRLT3
-		SAY ~(You get close to Imoen and embrace her from behind. She is gazing at the fading sun behind the canopy. Peering over her shoulder, you look down inside her tunic and enjoy for a brief moment an even more spectacular sight.)~ [ MRImRom1 ]
+		SAY @144
 		IF ~~ THEN DO ~ActionOverride(Player1,SetDialog("Player1"))~ GOTO MRLT3-2
 	END
 
@@ -570,7 +570,7 @@ END
 /* Must trigger in a dungeon/sewer environment */
 APPEND IMOEN2J
 	IF ~~ THEN BEGIN MRLT4
-		SAY ~(Imoen glances at her surroundings) This place is so dark... it gives me the creeps.~ [ MRImRom3 ]
+		SAY @201
 		IF ~~ THEN DO ~ActionOverride(Player1,SetDialog("Player1"))~ GOTO MRLT4-2
 	END
 
@@ -616,7 +616,7 @@ END
 /* Must trigger in late afternoon, anywhere that's not inside a building? */
 APPEND IMOEN2J
 	IF ~~ THEN BEGIN MRLT5
-		SAY ~(Imoen waits until you get close and gaily throws herself into your arms.)~ [ MRImRom4 ]
+		SAY @214
 		=
 		@215
 		IF ~~ THEN REPLY @216 DO ~ ActionOverride(Player1,SetDialog("Player1"))~GOTO MRLT5-Inn
@@ -696,7 +696,7 @@ APPEND IMOEN2J
 	IF ~~ THEN BEGIN MRLT6
 		SAY @244
 		=
-		~<CHARNAME>, did you hear that?~ [ MRImNig2 ]
+		@245
 		=
 		@246
 		IF ~~ THEN REPLY @247 GOTO MRLT6-Nothing
@@ -757,7 +757,7 @@ APPEND IMOEN2J
 		=
 		@272
 		=
-		~<CHARNAME>...~ [ MRImRom5 ] 
+		@273
 		=
 		@274
 		=
@@ -849,7 +849,7 @@ APPEND IMOEN2J
 
 /* Must trigger in a city */
 	IF ~~ THEN BEGIN MRLT7
-		SAY ~(Without words, you surprise Imoen by sweeping her into your arms and kissing her intensely.)~ [ MRImRom2 ] 
+		SAY @313 
 		=
 		@314
 		IF ~~ THEN REPLY @315 GOTO MRLT7-Nice
@@ -964,7 +964,7 @@ END
 /* Must trigger in a subterranean environment at night */
 APPEND IMOEN2J
 	IF ~~ THEN BEGIN MRLT8
-		SAY ~<CHARNAME>, I hate being in caverns and the like at night.~ [ MRImRom1 ]
+		SAY @362
 		=
 		@363
                 = @364
@@ -1044,7 +1044,7 @@ END
 /* Can trigger anywhere, daytime */
 APPEND IMOEN2J
 	IF ~~ THEN BEGIN MRLT9
-		SAY ~(You come closer to Imoen with the intention of saying something beautiful to her.)~ [ MRImRom5 ]
+		SAY @389
 		IF ~~ THEN REPLY @390 GOTO MRLT9Smooth
 		IF ~~ THEN REPLY @391 GOTO MRLT9Smooth
 		IF ~~ THEN REPLY @392 GOTO MRLT9Smooth
@@ -1150,7 +1150,7 @@ END
 /* Triggers in the morning, in a city */
 APPEND IMOEN2J
 	IF ~~ THEN BEGIN MRLT10
-		SAY ~(Looking at her, a variety of desires assault your will.)~ [ MRImRom3 ]
+		SAY @434
 		IF ~~ THEN REPLY @435 GOTO MRLT10a
 		IF ~~ THEN REPLY @436 GOTO MRLT10b
 		IF ~~ THEN REPLY @437 GOTO MRLT10c
