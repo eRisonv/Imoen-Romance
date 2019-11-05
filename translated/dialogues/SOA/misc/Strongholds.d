@@ -729,7 +729,7 @@ APPEND IMOEN2J
 	END
 
 	IF ~~ THEN BEGIN MRStrongGroveSex
-		SAY ~I can do better than that. (Imoen approaches you and wraps her arms around your waist, pulling you close. Her open mouth beckons for yours and, as she kisses you, her tongue dashes in and out of your mouth.)~ [ MRImRom6 ]
+		SAY @241
 		IF ~~ THEN GOTO MRStrongGroveSex1
 	END
 
@@ -835,12 +835,12 @@ APPEND IMOEN2J
 	END
 
 	IF ~Global("MRStrongholdTalkDrui","GLOBAL",4)~ THEN BEGIN MRStrongGroveAfter
-		SAY @396 [ MRImRom5 ]
+		SAY @282
 	IF ~~ THEN DO ~SetGlobal("MRStrongholdTalkDrui","GLOBAL",5) ActionOverride(Player1,SetDialog("Player1"))~ GOTO MRStrongGroveAfterExtern
 	END
 
 		IF ~~ THEN BEGIN MRStrongGroveAfterExtern
-		SAY ~<CHARNAME>...~ [ MRImRom5 ]
+		SAY @283
 		IF ~~ THEN EXTERN PLAYER1 MRStrongGroveAfter2
 	END
 
