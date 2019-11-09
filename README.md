@@ -6,7 +6,7 @@
 <p>16.09.2019 - Переведенный текст: 100% </p>
 <p>Статус: Вычитка...</p>
 <ol>
-<li>Переведенных строк SoA: &nbsp;&nbsp;<code>5211/5211</code>&nbsp;</li>
+<li>Переведенных строк SoA:&nbsp;&nbsp;<code>5211/5211</code>&nbsp;</li>
 <li>Переведенных строк ToB:&nbsp;&nbsp;<code>4997/4997</code>&nbsp;</li>
 </ol>
 <ul>
