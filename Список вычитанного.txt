@@ -1,15 +1,15 @@
 SoA [Вычитано]:
-Banter: AlignGoodvsEvil, AlignLaw, banter, Classes, Money, Reputation, Stealing
-Bracelet: imoen, mrwomer
-Bodhi: BodhiConfrontation
+Banter: [Вычитано]
+Bracelet: [Вычитано]
+Bodhi: [Вычитано]
 Love: [Вычитано]
 CampfireCutscenes [Вычитано]
-FirstDungeon: imoen.tra imoen2j.tra
+FirstDungeon: [Вычитано]
 Quests [Вычитано]
-Spellhold: ImRejoinEE, ImRejoin, Exit, SlayerDreamTalk, ImRejoinVanilla
+Spellhold: [Вычитано]
 Hell [Вычитано]
 dreamCutscenes [Вычитано]
-Suld: enter, TreeContent
+Suld: [Вычитано]
 Misc: [Вычитано]
 Underdark: [Вычитано]
 UnderdarkExit: [Вычитано]
