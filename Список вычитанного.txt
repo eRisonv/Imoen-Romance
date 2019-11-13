@@ -1,4 +1,4 @@
-SoA:
+SoA [Вычитано]:
 Banter: AlignGoodvsEvil, AlignLaw, banter, Classes, Money, Reputation, Stealing
 Bracelet: imoen, mrwomer
 Bodhi: BodhiConfrontation
@@ -13,3 +13,6 @@ Suld: enter, TreeContent
 Misc: [Вычитано]
 Underdark: [Вычитано]
 UnderdarkExit: [Вычитано]
+
+TOB:
+Solar: [Вычитано]
