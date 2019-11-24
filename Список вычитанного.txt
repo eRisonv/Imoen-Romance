@@ -16,5 +16,6 @@ UnderdarkExit: [Вычитано]
 
 TOB:
 Solar: [Вычитано]
-PocketPlane: Cespenar, ImoenSummon
+PocketPlane: Cespenar, ImoenSummon, ImoenSleep
 FinalConversation: [Вычитано]
+BhaalTalks [Вычитано]
